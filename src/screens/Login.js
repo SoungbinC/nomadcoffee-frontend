@@ -51,7 +51,7 @@ function Login() {
         const {
             login: { ok, error, token },
         } = data
-        console.log(data)
+
         if (!ok) {
             return setError("result", {
                 message: error,

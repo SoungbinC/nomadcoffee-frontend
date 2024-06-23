@@ -6,7 +6,7 @@ import NotFound from "./screens/NotFound"
 import { client, darkModeVar, isLoggedInVar } from "./apollo"
 import { ThemeProvider } from "styled-components"
 import { darkTheme, lightTheme, GlobalStyles } from "./styles"
-import SignUp from "./screens/SignUp"
+import SignUp from "./screens/Signup"
 import routes from "./routes"
 import { HelmetProvider } from "react-helmet-async"
 

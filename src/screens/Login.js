@@ -57,7 +57,7 @@ function Login() {
                 message: error,
             })
         }
-        console.log(token)
+
         if (token) {
             logUserIn(token)
         }
